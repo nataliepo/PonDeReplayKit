@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E0BEEBC61B2FBC8600FF463A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BEEBC51B2FBC8600FF463A /* AppDelegate.swift */; };
+		E0BEEBC81B2FBC8600FF463A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BEEBC71B2FBC8600FF463A /* ViewController.swift */; };
+		E0BEEBCB1B2FBC8600FF463A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0BEEBC91B2FBC8600FF463A /* Main.storyboard */; };
+		E0BEEBCD1B2FBC8600FF463A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0BEEBCC1B2FBC8600FF463A /* Assets.xcassets */; };
+		E0BEEBD01B2FBC8600FF463A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0BEEBCE1B2FBC8600FF463A /* LaunchScreen.storyboard */; };
+		E0E32F461B2FD30700D3F014 /* ReplayKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0E32F451B2FD30700D3F014 /* ReplayKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E0BEEBC21B2FBC8600FF463A /* PonDeReplayKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PonDeReplayKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0BEEBC51B2FBC8600FF463A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E0BEEBC71B2FBC8600FF463A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E0BEEBCA1B2FBC8600FF463A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E0BEEBCC1B2FBC8600FF463A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E0BEEBCF1B2FBC8600FF463A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E0BEEBD11B2FBC8600FF463A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0E32F451B2FD30700D3F014 /* ReplayKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReplayKit.framework; path = System/Library/Frameworks/ReplayKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E0BEEBBF1B2FBC8600FF463A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0E32F461B2FD30700D3F014 /* ReplayKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E0BEEBB91B2FBC8600FF463A = {
+			isa = PBXGroup;
+			children = (
+				E0E32F451B2FD30700D3F014 /* ReplayKit.framework */,
+				E0BEEBC41B2FBC8600FF463A /* PonDeReplayKit */,
+				E0BEEBC31B2FBC8600FF463A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E0BEEBC31B2FBC8600FF463A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E0BEEBC21B2FBC8600FF463A /* PonDeReplayKit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E0BEEBC41B2FBC8600FF463A /* PonDeReplayKit */ = {
+			isa = PBXGroup;
+			children = (
+				E0BEEBC51B2FBC8600FF463A /* AppDelegate.swift */,
+				E0BEEBC71B2FBC8600FF463A /* ViewController.swift */,
+				E0BEEBC91B2FBC8600FF463A /* Main.storyboard */,
+				E0BEEBCC1B2FBC8600FF463A /* Assets.xcassets */,
+				E0BEEBCE1B2FBC8600FF463A /* LaunchScreen.storyboard */,
+				E0BEEBD11B2FBC8600FF463A /* Info.plist */,
+			);
+			path = PonDeReplayKit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E0BEEBC11B2FBC8600FF463A /* PonDeReplayKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0BEEBD41B2FBC8600FF463A /* Build configuration list for PBXNativeTarget "PonDeReplayKit" */;
+			buildPhases = (
+				E0BEEBBE1B2FBC8600FF463A /* Sources */,
+				E0BEEBBF1B2FBC8600FF463A /* Frameworks */,
+				E0BEEBC01B2FBC8600FF463A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PonDeReplayKit;
+			productName = PonDeReplayKit;
+			productReference = E0BEEBC21B2FBC8600FF463A /* PonDeReplayKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E0BEEBBA1B2FBC8600FF463A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Natalie Podrazik";
+				TargetAttributes = {
+					E0BEEBC11B2FBC8600FF463A = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = E0BEEBBD1B2FBC8600FF463A /* Build configuration list for PBXProject "PonDeReplayKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E0BEEBB91B2FBC8600FF463A;
+			productRefGroup = E0BEEBC31B2FBC8600FF463A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E0BEEBC11B2FBC8600FF463A /* PonDeReplayKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E0BEEBC01B2FBC8600FF463A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0BEEBD01B2FBC8600FF463A /* LaunchScreen.storyboard in Resources */,
+				E0BEEBCD1B2FBC8600FF463A /* Assets.xcassets in Resources */,
+				E0BEEBCB1B2FBC8600FF463A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E0BEEBBE1B2FBC8600FF463A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0BEEBC81B2FBC8600FF463A /* ViewController.swift in Sources */,
+				E0BEEBC61B2FBC8600FF463A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E0BEEBC91B2FBC8600FF463A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E0BEEBCA1B2FBC8600FF463A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E0BEEBCE1B2FBC8600FF463A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E0BEEBCF1B2FBC8600FF463A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E0BEEBD21B2FBC8600FF463A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E0BEEBD31B2FBC8600FF463A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E0BEEBD51B2FBC8600FF463A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PonDeReplayKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nataliepo.PonDeReplayKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E0BEEBD61B2FBC8600FF463A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PonDeReplayKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nataliepo.PonDeReplayKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E0BEEBBD1B2FBC8600FF463A /* Build configuration list for PBXProject "PonDeReplayKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0BEEBD21B2FBC8600FF463A /* Debug */,
+				E0BEEBD31B2FBC8600FF463A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0BEEBD41B2FBC8600FF463A /* Build configuration list for PBXNativeTarget "PonDeReplayKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0BEEBD51B2FBC8600FF463A /* Debug */,
+				E0BEEBD61B2FBC8600FF463A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E0BEEBBA1B2FBC8600FF463A /* Project object */;
+}
