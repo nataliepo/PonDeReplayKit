@@ -13,7 +13,6 @@ import ReplayKit
 class ViewController: UIViewController, RPScreenRecorderDelegate, RPPreviewViewControllerDelegate {
 
     var viewTimer: NSTimer?
-    let viewLimit = 10
     var imageView = UIImageView()
     let bubblesContainer = UIView()
     var animator : UIDynamicAnimator!
